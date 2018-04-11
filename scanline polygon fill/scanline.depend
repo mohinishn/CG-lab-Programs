@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1522996130 source:/root/Desktop/scanline/main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+
