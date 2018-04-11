@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1520344504 source:/root/Desktop/triangle/main.c
+	<stdio.h>
+	<GL/glut.h>
+	<math.h>
+

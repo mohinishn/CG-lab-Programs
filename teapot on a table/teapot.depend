@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1523369133 source:/root/Desktop/teapot/main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+
