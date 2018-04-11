@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1521613325 source:/root/Desktop/cohen/main.c
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+	<stdbool.h>
+
