@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1520405263 source:/root/Desktop/camera cube/main.c
+	<stdlib.h>
+	<stdio.h>
+	<GL/glut.h>
+
