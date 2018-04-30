@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524637273 source:/root/Desktop/bezier2/main.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<math.h>
+
