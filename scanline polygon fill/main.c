@@ -42,7 +42,6 @@ void draw_pixel(int x,int y)
 	glBegin(GL_POINTS);
 	glVertex2i(x,y);
 	glEnd();
-//	glFlush();
 }
 
 void scanfill(float x1,float y1,float x2,float y2,float x3,float y3,float x4,float y4)
@@ -69,22 +68,6 @@ void scanfill(float x1,float y1,float x2,float y2,float x3,float y3,float x4,flo
     }
 }
 
-/*void menu(int id)
-{
-	switch(id)
-	{
-		case 0: glColor3f(1.0,0.0,0.0);
-			break;
-
-		case 1: glColor3f(0.0,1.0,0.0);
-			break;
-
-		case 2: glColor3f(0.0,0.0,1.0);
-			break;
-	}
-	glutPostRedisplay();
-}
-*/
 void display()
 {
 	int x1 = 200,y1 = 200,x2 = 100,y2 = 300,x3 = 200,y3 = 400,x4 = 300,y4 = 300;
