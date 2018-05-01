@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <GL/glut.h>
-//#include<math.h>
 
 int x1,x2,y1,y2;
 
@@ -46,7 +45,7 @@ void draw_Line(int x1,int x2,int y1,int y2)
             if(e>=0)
             {
                 y+=incy;
-                e+=inc2;
+                e+=inc1;
             }
             else
             e+=inc2;
