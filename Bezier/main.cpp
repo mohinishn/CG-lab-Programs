@@ -17,10 +17,10 @@ void bino(GLint n, GLint *C)
     GLint k, j;
     for(k=0;k<=n;k++){
         C[k]=1;
-    for(j=n;j>=k+1; j--)
-        C[k]*=j;
-    for(j=n-k;j>=2;j--)
-        C[k]/=j;
+        for(j=n;j>=k+1; j--)
+            C[k]*=j;
+        for(j=n-k;j>=2;j--)
+            C[k]/=j;
     }
 }
 
